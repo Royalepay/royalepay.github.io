@@ -31,7 +31,7 @@ a{color:var(--gold)}
 #splash.out{opacity:0;pointer-events:none}
 .mono{width:150px;height:150px;position:relative;display:flex;align-items:center;justify-content:center;animation:rise 1.2s cubic-bezier(.2,.8,.2,1) both}
 .mono:before,.mono:after{content:"";position:absolute;inset:0;border:2px solid var(--gold2);border-radius:4px}
-.mono:after{inset:8px;border-width:1px}
+.mono:after{display:none}
 .mono img{width:62%;height:auto;display:block}
 #splash .mono img{animation:floaty 4s ease-in-out infinite}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
